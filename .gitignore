@@ -43,8 +43,11 @@ Thumbs.db
 
 # Conda environments
 *.conda
-*.yml
 *.lock
+
+# Ignore all .yml files, but keep those in .github/workflows
+*.yml
+!.github/workflows/*.yml
 
 # VS Code & PyCharm settings
 .vscode/
