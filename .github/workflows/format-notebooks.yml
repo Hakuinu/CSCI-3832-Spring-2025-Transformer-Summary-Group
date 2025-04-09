@@ -27,6 +27,7 @@ jobs:
     - name: Format notebooks with nbqa + black
       run: |
         nbqa black .
+        black .
 
     - name: Commit changes if needed
       run: |
