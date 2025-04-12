@@ -1,0 +1,55 @@
+# Virtual environments
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+logs/
+*.log
+
+# Dataset and model files
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.onnx
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.tar.gz
+
+# Transformer model caches (Hugging Face, TensorFlow, PyTorch)
+.cache/
+transformers_cache/
+torch_cache/
+torch_models/
+tensorflow_datasets/
+spacy_data/
+
+# Temporary files and OS-specific files
+.DS_Store
+Thumbs.db
+
+# Conda environments
+*.conda
+*.yml
+*.lock
+
+# VS Code & PyCharm settings
+.vscode/
+.idea/
+
+# Environment variables and credentials
+.env
+*.secret
